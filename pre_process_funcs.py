@@ -26,6 +26,13 @@ def _stemmer(words):
 
 
 def make_ngram_dict(string, n_min=1, n_max=1):
+    """
+    Takes a string and turns into dictionary representation.
+    Arguments:
+    `string` - string to tokenize, etc.
+    `n_min` - minimum size ngram
+    `n_max - maximum size ngram
+    """
     tokens = wordpunct_tokenize(string)
     lowercase = _remove_stopwords_lowercase(tokens)
     stemmed = _stemmer(lowercase)
