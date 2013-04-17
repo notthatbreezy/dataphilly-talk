@@ -10,20 +10,20 @@ Originally this was developed using the [Anaconda python distribution](https://s
 
 There is one requirement to install on Anaconda (the readability package for stripping irrelevant html from webpages):
 
-+`conda pip install readability-lxml`
+- `conda pip install readability-lxml`
 
 If working from your own python distribution locally or in a virtual environment you will need to install the dependencies above in addition to nltk, numpy, and scipy.
 
 # Description of Files
 
-+`getting_started.py` - basic examples using some NLTK tools
+- `getting_started.py` - basic examples using some NLTK tools
 
-+`scraping.py` - Pulls down articles on front page of memeorandum -- will replace everything in the `memeorandum_pages` directory
+- `scraping.py` - Pulls down articles on front page of memeorandum -- will replace everything in the `memeorandum_pages` directory
 
-+`process_memeorandum_pages.py` - strips html from webpages, writes to directory. Takes 2 command line arguments, source directory (directory with html files) and target directory (where to save plain text files)
+- `process_memeorandum_pages.py` - strips html from webpages, writes to directory. Takes 2 command line arguments, source directory (directory with html files) and target directory (where to save plain text files)
 
-+`pre_process_funcs.py` - helper functions for pre-processing text
+- `pre_process_funcs.py` - helper functions for pre-processing text
 
-+`cluster_memeorandum.py` - does the actual clustering using scikit-learn
+- `cluster_memeorandum.py` - does the actual clustering using scikit-learn
 
-+`extract_entities.py` - Example of how you might extract entities from news articles
+- `extract_entities.py` - Example of how you might extract entities from news articles
