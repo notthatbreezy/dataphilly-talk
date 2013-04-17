@@ -6,7 +6,7 @@ Example Code for Data Philly Talk given on 04/16/2013 on Natural Language Toolki
 Slides can be found at my website - http://cmbrown.org/static/media/dataphilly.html
 
 # Requirements
-Originally this was developed using the (Anaconda python distribution)[https://store.continuum.io/cshop/anaconda] available for free from Continuum Analytics. This is a python distribution with all the key libraries for scientific computing already included.
+Originally this was developed using the [Anaconda python distribution](https://store.continuum.io/cshop/anaconda) available for free from Continuum Analytics. This is a python distribution with all the key libraries for scientific computing already included.
 
 There is one requirement to install on Anaconda (the readability package for stripping irrelevant html from webpages):
 
